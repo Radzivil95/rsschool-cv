@@ -24,3 +24,7 @@ function descendingOrder(n){
     return parseInt(String(n).split('').sort().reverse().join(''));
 }
 ```
+## Languages
+
+* Russian - native
+* English - B1
