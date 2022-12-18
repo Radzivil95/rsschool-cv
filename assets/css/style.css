@@ -76,6 +76,16 @@ img {
     flex-direction: column;
     gap: 20px;
 }
+.contacts__item-link {
+    text-decoration: none;
+    color:#000000;
+    transition: 0.3s all;
+}
+.contacts__item-link:hover {
+    color: #e94d35;
+    text-decoration: underline;
+}
+/* education */
 .education {
     margin-top: 40px;
 }
@@ -88,6 +98,29 @@ img {
     flex-direction: column;
     gap: 20px;
 }
+.education__item {
+    text-transform: capitalize;
+}
+.education__item-link {
+    text-decoration: none;
+    color:#000000;
+    transition: 0.3s all;
+}
+.education__item-link:hover {
+    color: #e94d35;
+    text-decoration: underline;
+}
+/* skills */
+.skills__title {
+    margin-top: 40px;
+}
+.skills__items {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-transform: uppercase;
+}
 /* about */
 .about {
     margin-top: 40px;
@@ -95,5 +128,41 @@ img {
 .about__descr {
     width: 600px;
     margin-top: 20px;
-    font-size: 1.15em;;
+    font-size: 1.15em;
+}
+/* code */
+.code {
+    margin-top: 40px;
+}
+.code__descr {
+    width: 600px;
+    margin-top: 20px;
+    font-size: 1.15em;
+}
+.code__example {
+    margin-top: 20px;
+}
+/* portfolio */
+.portfolio__title {
+    margin-top: 40px;
+}
+.portfolio p {
+    margin-top: 20px;
+}
+/* footer */
+.footer {
+    margin-top: 40px;
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    
+}
+.rss-logo {
+    height: 60px;
+}
+.github-logo {
+    height: 60px;
 }

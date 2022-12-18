@@ -40,7 +40,7 @@
                         <ul class="contacts__items list-reset">
                             <li class="contacts__item">Phone: <a href="tel:48510985087" class="contacts__item-link">+48 510 985 087</a></li>
                             <li class="contacts__item">Telegram: <a href="https://t.me/radzivil" class="contacts__item-link">Vlad Radzivil</a></li>
-                            <li class="contacts__item">Mail: <a href="mailto:vladradziviloff@gmail.com" class="contacts__item-link">vladradziviloff@gmail.com</a></li>
+                            <li class="contacts__item">Email: <a href="mailto:vladradziviloff@gmail.com" class="contacts__item-link">vladradziviloff@gmail.com</a></li>
                         </ul>
                     </section>
                     <section class="education">
@@ -50,21 +50,51 @@
                             <li class="education__item"><a href="https://www.udemy.com/certificate/UC-3a6880fd-e76b-46ad-abb3-711488dc6d41/" class="education__item-link">Udemy: Web-developer</a></li>
                         </ul>
                     </section>
-                    <section class="skills"></section>
+                    <section class="skills">
+                        <h2 class="skills__title">Skills</h2>
+                        <ul class="list-reset skills__items">
+                            <li class="skills__item">HTML5, CSS3</li>
+                            <li class="skills__item">SASS/SCSS</li>
+                            <li class="skills__item">JavaScript basic</li>
+                            <li class="skills__item">Git, GitHub</li>
+                            <li class="skills__item">Gulp</li>
+                            <li class="skills__item">Figma</li>
+                            <li class="skills__item">English - B1</li>
+                        </ul>
+                    </section>
                 </div>
                 <div class="main-right__wrapper">
                     <section class="about">
                         <h2 class="about__title">About Me</h2>
                         <p class="about__descr">I like to learn and learn something new and like that programming gives me the opportunity to create something new. I like working in a team to solve problems. I worked in the EasyPay project as a project development specialist. EasyPay is a payment aggregator in the republic of belarus.</p>
                     </section>
-                    <section class="code"></section>
-                    <section class="portfolio"></section>
+                    <section class="code">
+                        <h2 class="code__title">Code Example</h2>
+                        <p class="code__descr">Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order.</p>
+                        <div class="code__example">
+                            <code>
+                                function descendingOrder(n){ <br>
+                                &nbsp&nbsp return parseInt(String(n).split('').sort().reverse().join('')); <br>
+                                &nbsp}
+                            </code>
+                        </div>
+                    </section>
+                    <section class="portfolio">
+                        <h2 class="portfolio__title">Portfolio</h2>
+                        <p>coming soon...</p>
+                    </section>
                 </div>
             </div>
         </div>
     </main>
     <footer class="footer">
-
+        <div class="container">
+            <div class="footer__wrapper">
+                <a href="https://rs.school/js/" class="footer__link"><img src="./assets/images/rs_school_js.svg" alt="Rsschool" class="rss-logo"></a>
+                <p>2022</p>
+                <a href="https://github.com/Radzivil95" class="footer__link"><img src="./assets/images/github.svg" alt="github" class="github-logo"></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
