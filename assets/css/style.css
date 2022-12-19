@@ -149,6 +149,17 @@ img {
 .portfolio p {
     margin-top: 20px;
 }
+.portfolio__items {
+    margin-top: 20px;
+}
+.portfolio__item-link {
+    text-decoration: none;
+    color:#000000;
+}
+.portfolio__item-link:hover {
+    color: #e94d35;
+    text-decoration: underline;
+}
 /* footer */
 .footer {
     margin-top: 40px;
